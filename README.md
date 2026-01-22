@@ -1,9 +1,9 @@
 \# Dibuixa el teu moviment
 
 
-Aquesta aplicació és un \*\*restyling i replantejament funcional\*\* del projecte inicial
+Aquesta aplicació és un "restyling i replantejament funcional" del projecte inicial
 
-\*\*“El teu pas”\*\*, desenvolupat a la PR1.
+“El teu pas”, desenvolupat a la PR1.
 
 
 Després d’analitzar les limitacions de la detecció fiable de passos mitjançant sensors
