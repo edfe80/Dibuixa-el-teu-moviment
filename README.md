@@ -29,8 +29,7 @@ i transformar aquestes dades en una **visualització gràfica interactiva**, pri
 - Formes diferents segons el gest:
   - Línies per moviment horitzontal
   - Cercles per moviment vertical
-- Colors dinàmics amb mode HSB
-- Mode alternatiu amb degradat reactiu segons direcció i intensitat
+- Colors dinàmics
 
 ### Sensibilitat configurable
 - Panell de configuració inferior
@@ -39,7 +38,7 @@ i transformar aquestes dades en una **visualització gràfica interactiva**, pri
 
 ### Captura del moviment
 - Botó per capturar l’animació
-- Generació d’una imatge PNG del canvas
+- Generació d’una imatge del canvas
 - Visualització en pantalla completa amb opció de tancar
 
 ### Ubicació actual (API externa)
