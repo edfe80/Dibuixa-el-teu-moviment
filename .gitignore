@@ -1,0 +1,53 @@
+
+# LOGS
+
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# NODE / VITE
+
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+
+# CAPACITOR
+
+www/
+
+
+# ANDROID / GRADLE
+
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+
+
+# EDITORS / IDE
+
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+
+# SISTEMA OPERATIU
+
+.DS_Store
+Thumbs.db
+
+
+# ALTRES
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+

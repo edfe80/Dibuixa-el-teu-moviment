@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dibuixa el teu moviment</title>
+  <script src="/p5.min.js"></script>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <main>
+
+    <header class="capcalera">
+      <h1>Dibuixa el teu moviment</h1>
+      <p>Visualitza el moviment del teu cos</p>
+      <span id="dataAvui"></span>
+    </header>
+    <!-- ANIMACIO -->
+    <section class="zona-animacio">
+      <div id="canvasWrapper"></div>
+    </section>
+
+    <section class="zona-info">
+
+      <p class="text-progres">
+        <strong id="comptadorMoviments">0</strong> moviments detectats
+      </p>
+      <!-- UBICACIÓ ACTUAL -->
+      <div class="card">
+        <span>Ubicació actual</span>
+        <strong id="ubicacioText">Obtenint ubicació…</strong>
+      </div>
+
+      <button id="btnCaptura" class="btn-captura">
+        Captura el teu moviment
+      </button>
+
+      <!-- BOTO CANVIAR L'ANIMACIO -->
+      <button id="btnCanviAnimacio" class="btn-captura">
+        Canvia l’animació
+      </button>
+
+    </section>
+
+  </main>
+  <!-- BARRA INFERIOR-->
+  <nav class="barra-inferior">
+    <button id="btnConfig" aria-label="Configuració">
+      <img src="/public/configuracio.png" alt="Configuració">
+    </button>
+  </nav>
+
+  <div id="overlay"></div>
+<!-- PANEL DE CONFIGURACIO-->
+  <aside id="configPanel">
+    <h2>Configuració</h2>
+
+    <label>
+      Sensibilitat del moviment
+      <input type="range" id="inputLlindar" min="1" max="100" step="1">
+      <small>
+        Valors baixos detecten moviments petits · Valors alts només moviments forts
+      </small>
+    </label>
+
+    <button id="closeConfig" class="primari">Tancar</button>
+  </aside>
+
+  <script type="module" src="/src/app.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,6 @@
+{
+  "appId": "com.example.elteupas",
+  "appName": "El Teu Pas",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
