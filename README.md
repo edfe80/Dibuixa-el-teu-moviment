@@ -51,7 +51,7 @@ i transformar aquestes dades en una **visualització gràfica interactiva**, pri
 
 ```bash
 npm install
-npm run dev
+npm run build
 npx cap sync
 npx cap open android
 
